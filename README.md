@@ -27,7 +27,7 @@ Proyek ini bertujuan untuk menganalisis data pemesanan hotel guna memahami berba
 <details>
   <summary>Click here for more details about the project</summary>
   
-  ### Fokus Analisis
+  #### Fokus Analisis
   - **Perilaku Pelanggan:**
     - **Memahami kapan pelanggan cenderung melakukan pemesanan:** Analisis ini bertujuan untuk mengidentifikasi pola-pola tertentu terkait waktu pemesanan, misalnya, apakah ada periode tertentu dalam setahun ketika pemesanan lebih tinggi.
     - **Mengidentifikasi pola pembatalan pemesanan:** Menganalisis data untuk melihat alasan umum atau pola pembatalan pemesanan, yang dapat memberikan wawasan tentang kebijakan pembatalan yang lebih efektif.
@@ -44,7 +44,7 @@ Proyek ini bertujuan untuk menganalisis data pemesanan hotel guna memahami berba
     - **Menganalisis hubungan antara durasi menginap, jenis pelanggan, dan ADR:** Meneliti durasi menginap rata-rata pelanggan berdasarkan jenis pelanggan untuk menyesuaikan harga dan penawaran yang relevan.
     - **Mengidentifikasi segmen pelanggan dengan kontribusi pendapatan tertinggi:** Menganalisis segmen pasar berdasarkan umur, preferensi, atau perilaku lain untuk fokus pada pelanggan yang memberikan kontribusi pendapatan terbesar.
 
-  ### Manfaat Proyek
+  #### Manfaat Proyek
   Hasil dari analisis ini dapat digunakan untuk:
   - **Mengembangkan kebijakan harga dinamis:** Berdasarkan data harga dan permintaan, kebijakan harga dapat disesuaikan dengan lebih baik untuk memaksimalkan pendapatan.
   - **Menyesuaikan penawaran promosi sesuai kebutuhan pelanggan:** Menyesuaikan promosi agar lebih relevan dengan segmen pasar dan musim tertentu.
@@ -76,7 +76,7 @@ Dataset ini juga mendukung eksplorasi menggunakan paket analisis data dan time-s
 Dataset dapat diakses melalui file [hotels.csv](Dataset/hotels.csv) yang disertakan dalam repositori ini.
 
 
-### Data Dictionary
+#### Data Dictionary
 
 Berikut adalah penjelasan variabel dalam dataset:
 
@@ -99,7 +99,7 @@ Berikut adalah penjelasan variabel dalam dataset:
 Selengkapnya, data dictionary dapat dilihat di dokumentasi resmi datasetnya.
 
 
-### Cara Mengakses Data
+#### Cara Mengakses Data
 
 Gunakan perintah berikut untuk membaca dataset:
 
