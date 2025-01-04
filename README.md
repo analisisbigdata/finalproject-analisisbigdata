@@ -448,7 +448,7 @@ Hasil visualisasi memberikan wawasan penting bagi manajemen hotel untuk meningka
 ## Anggota Kelompok 
 
 - [Liska Ayuningsih](https://github.com/LiskaAyuningsih) - 202110370311106
-- Ida Masluha (202110370311372)
+- [Ida Masluha](https://github.com/Idamasluha) - 202110370311372
 - Dwi Rakhmawati - 202110370311087
 
 
