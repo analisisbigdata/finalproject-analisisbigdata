@@ -16,6 +16,10 @@
 
 
 
+
+
+
+
 ## About
 
 Proyek ini bertujuan untuk menganalisis data pemesanan hotel guna memahami berbagai pola dan faktor yang memengaruhi keputusan pelanggan. Data yang digunakan mencakup informasi dari dua jenis hotel, yaitu Resort Hotel dan City Hotel. Analisis ini bertujuan untuk memberikan wawasan kepada manajemen hotel dalam meningkatkan pengalaman pelanggan, mengoptimalkan tingkat hunian, dan memaksimalkan pendapatan.
@@ -48,6 +52,9 @@ Proyek ini bertujuan untuk menganalisis data pemesanan hotel guna memahami berba
   - **Menentukan kebijakan operasional yang lebih efisien berdasarkan wawasan data:** Memanfaatkan analisis ini untuk merancang kebijakan operasional yang lebih efisien, mengoptimalkan sumber daya, dan meningkatkan pengalaman pelanggan.
 
 </details>
+
+
+
 
 
 
@@ -210,6 +217,10 @@ print("Nilai yang hilang setelah pembersihan:\n", data.isnull().sum())
 Langkah-langkah pembersihan data selengkapnya dilakukan dalam file notebook [BOOKING HOTEL.ipynb](BOOKING%20HOTEL.ipynb) yang terdapat dalam repositori ini.
 
 
+
+
+
+
 ## Analisis dan Code
 
 Analisis data mencakup:
@@ -221,6 +232,11 @@ Analisis data mencakup:
 3. Pemodelan untuk mengidentifikasi tren utama
 
 Kode tersedia di file [BOOKING HOTEL.ipynb](BOOKING%20HOTEL.ipynb). Notebook ini mencakup semua langkah yang dilakukan untuk analisis dataset ini.
+
+
+
+
+
 
 
 ## Storyboard
@@ -246,6 +262,11 @@ Storyboard proyek ini tersedia dalam file [Storyboard.pdf](Storyboard/Storyboard
 File storyboard memberikan visualisasi dan alur cerita dari analisis yang dilakukan, serta rekomendasi untuk implementasi bisnis.
 
 
+
+
+
+
+
 ## Dependencies
 
 Berikut adalah pustaka dan perangkat lunak yang diperlukan:
@@ -260,7 +281,12 @@ Berikut adalah pustaka dan perangkat lunak yang diperlukan:
 - **Jupyter Notebook** (opsional untuk menjalankan kode)
 
 
-  ## Tutorial
+
+
+
+
+
+## Tutorial
 
   Langkah- langkah untuk menjalankan proyek ini:
 
@@ -317,6 +343,12 @@ Untuk informasi lebih lanjut mengenai proyek ini, dapat dilihat dokumentasi leng
 
 
 
+
+
+
+
+
+
 ## Summary
 
 
@@ -353,6 +385,14 @@ Analisis ini memberikan manfaat bagi manajemen hotel dalam beberapa hal:
 - **Memberikan data yang dapat digunakan untuk menyesuaikan promosi dan penawaran hotel berdasarkan pola pembatalan atau preferensi pelanggan.**
 
 </details>
+
+
+
+
+
+
+
+
 
 ## Hasil
 
@@ -401,6 +441,10 @@ Hasil visualisasi memberikan wawasan penting bagi manajemen hotel untuk meningka
 
   
    
+
+
+
+
 ## Anggota Kelompok 
 
 - [Liska Ayuningsih](https://github.com/LiskaAyuningsih) - 202110370311106
