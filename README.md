@@ -133,7 +133,7 @@ print("Nilai yang hilang setelah pembersihan:\n", data.isnull().sum())
 ```
 #### Ringkasan Dataset Setelah Pembersihan
 
-Sebelum Pembersihan:
+**Sebelum Pembersihan:**
 
 | **Variabel**                    | **Nilai yang Hilang** |
 |----------------------------------|-----------------------|
@@ -171,7 +171,7 @@ Sebelum Pembersihan:
 | reservation_status_date          | 0                     |
 
 
-Setelah Pembersihan:
+**Setelah Pembersihan:**
 
 | **Variabel**                    | **Nilai yang Hilang** |
 |----------------------------------|-----------------------|
@@ -227,21 +227,21 @@ Kode tersedia di file [BOOKING HOTEL.ipynb](BOOKING%20HOTEL.ipynb). Notebook ini
 
 Storyboard proyek ini tersedia dalam file [Storyboard.pdf](Storyboard/Storyboard.pdf) yang mencakup:
 
-Evolusi industri perhotelan
+1. Evolusi industri perhotelan
 
-Perilaku pemesanan pelanggan
+2. Perilaku pemesanan pelanggan
 
-Pola pemesanan dan pembatalan
+3. Pola pemesanan dan pembatalan
 
-Strategi harga berdasarkan paket
+4. Strategi harga berdasarkan paket
 
-Pola Average Daily Rate (ADR) dan durasi menginap
+5. Pola Average Daily Rate (ADR) dan durasi menginap
 
-Optimalisasi musiman
+6. Optimalisasi musiman
 
-Strategi retensi untuk City Hotel
+7. Strategi retensi untuk City Hotel
 
-Kesimpulan dan rencana aksi
+8. Kesimpulan dan rencana aksi
 
 File storyboard memberikan visualisasi dan alur cerita dari analisis yang dilakukan, serta rekomendasi untuk implementasi bisnis.
 
@@ -264,14 +264,14 @@ Berikut adalah pustaka dan perangkat lunak yang diperlukan:
 
   Langkah- langkah untuk menjalankan proyek ini:
 
-1. Clone repository
+**1. Clone repository**
 
    ```
    git clone https://github.com/analisisbigdata/finalproject-analisisbigdata.git
    ```
    Perintah ini akan mendownload seluruh repositori ke direktori lokal.
 
-2. Install Dependencies
+**2. Install Dependencies**
 
    Setelah repositori berhasil dikloning, langkah berikutnya adalah menginstal dependensi yang diperlukan untuk menjalankan proyek ini. Proyek ini membutuhkan beberapa pustaka Python yang terdaftar dalam file requirements.txt.
 
@@ -290,7 +290,7 @@ Perintah ini akan menginstal semua pustaka yang diperlukan, seperti:
 - **Jupyter Notebook** (opsional, jika ingin menjalankan kode dalam notebook)
 Pastikan Python 3.9+ sudah terinstal di sistem.
 
-3. Jalankan Jupyter Notebook
+**3. Jalankan Jupyter Notebook**
 
    Untuk menjalankan analisis data, buka Jupyter Notebook. Jika Jupyter belum terinstal, gunakan perintah berikut untuk menginstalnya:
 
@@ -299,7 +299,7 @@ Pastikan Python 3.9+ sudah terinstal di sistem.
    ```
    Perintah ini akan membuka Jupyter Notebook di browser. Kemudian, buka file BOOKING HOTEL.ipynb untuk memulai analisis data.
 
-4. Menjalankan Analisis Data
+**4. Menjalankan Analisis Data**
 
    Di dalam Jupyter Notebook, terdapat berbagai langkah analisis data, termasuk:
 
@@ -309,13 +309,92 @@ Pastikan Python 3.9+ sudah terinstal di sistem.
 
   Jalankan setiap sel di dalam notebook untuk mengikuti proses analisis.
 
-5. Lihat Dokumentasi Lengkap
+**5. Lihat Dokumentasi Lengkap**
+
 Untuk informasi lebih lanjut mengenai proyek ini, dapat dilihat dokumentasi lengkapnya melalui tautan berikut:
 
 [README di GitHub](https://github.com/analisisbigdata/finalproject-analisisbigdata/blob/main/README.md)
 
 
-Dengan mengikuti langkah-langkah di atas, proyek analisis data ini dapat dijalankan dengan mudah di sistem lokal.
+
+## Summary
+
+
+Proyek ini memberikan wawasan mendalam tentang pola pemesanan hotel berdasarkan analisis data yang dikumpulkan dari dua jenis hotel: Resort Hotel dan City Hotel. Tujuan utama dari proyek ini adalah untuk memahami perilaku pelanggan, tren pemesanan, serta faktor-faktor yang mempengaruhi keputusan pelanggan saat memilih hotel. Beberapa temuan kunci yang dihasilkan dari analisis data ini antara lain:
+
+<details>
+**1. Waktu Pemesanan yang Paling Sibuk (Bulan Tertentu)**
+
+Analisis mengungkapkan bulan-bulan tertentu yang menunjukkan puncak pemesanan, baik untuk Resort Hotel maupun City Hotel. Pemesanan cenderung lebih tinggi pada bulan-bulan tertentu, yang bisa dipengaruhi oleh musim liburan, perayaan, atau promosi khusus. Dengan pemahaman ini, manajemen hotel dapat merencanakan sumber daya dan mempersiapkan penawaran untuk memenuhi permintaan yang meningkat.
+
+**2. Durasi Tinggal Rata-Rata untuk Setiap Jenis Hotel**
+
+Proyek ini juga menganalisis durasi rata-rata penginapan di kedua jenis hotel. Data menunjukkan bahwa tamu di Resort Hotel cenderung menginap lebih lama dibandingkan tamu di City Hotel. Ini memberikan wawasan mengenai preferensi pelanggan serta kebutuhan untuk menyesuaikan harga dan layanan untuk kedua jenis hotel, agar lebih sesuai dengan tipe pengunjung yang menginap.
+
+**3. Faktor-faktor yang Memengaruhi Pembatalan Pemesanan**
+
+Pembatalan pemesanan adalah isu yang perlu diperhatikan oleh manajemen hotel. Analisis data ini mengidentifikasi berbagai faktor yang dapat menyebabkan pembatalan, seperti harga, jenis paket makanan, dan segmen pasar pelanggan. Dengan mengetahui faktor-faktor ini, hotel dapat merancang strategi untuk mengurangi tingkat pembatalan, seperti penawaran lebih fleksibel atau penyesuaian harga yang lebih kompetitif.
+
+**4. Rekomendasi Strategis untuk Meningkatkan Tingkat Pemesanan**
+
+Berdasarkan temuan analisis, beberapa rekomendasi strategis yang dapat diterapkan oleh hotel untuk meningkatkan tingkat pemesanan antara lain:
+
+- **Penyesuaian Harga Dinamis: Menggunakan harga yang lebih fleksibel berdasarkan permintaan musiman atau waktu pemesanan untuk menarik lebih banyak tamu.**
+- **Promosi yang Disesuaikan: Menawarkan paket promo yang menarik, seperti diskon untuk masa menginap lebih lama atau penawaran eksklusif pada bulan dengan pemesanan lebih rendah.**
+- **Peningkatan Pengalaman Pelanggan: Meningkatkan pengalaman tamu melalui layanan tambahan yang menarik, seperti layanan transportasi, aktivitas tambahan, atau pengalaman personalisasi.**
+- **Meningkatkan Kebijakan Pembatalan: Menawarkan kebijakan pembatalan yang lebih fleksibel untuk meningkatkan rasa aman bagi pelanggan dalam melakukan pemesanan.**
+  
+**5. Manfaat Proyek**
+
+Analisis ini memberikan manfaat bagi manajemen hotel dalam beberapa hal:
+
+- **Memungkinkan hotel untuk mengoptimalkan harga dan meningkatkan tingkat hunian dengan memanfaatkan data pemesanan untuk menyesuaikan strategi harga.**
+- **Memberikan wawasan berharga tentang pelanggan dan tren pemesanan yang dapat digunakan untuk merancang strategi pemasaran yang lebih efektif.**
+- **Memberikan data yang dapat digunakan untuk menyesuaikan promosi dan penawaran hotel berdasarkan pola pembatalan atau preferensi pelanggan.**
+
+</details>
+
+## Hasil
+
+**Visualisasi Utama**
+
+**1. Grafik Distribusi Jenis Hotel Berdasarkan Pemesanan**
+
+Grafik ini menunjukkan distribusi jumlah pemesanan berdasarkan jenis hotel (Hotel Kota dan Hotel Resor). Hasil analisis mengungkapkan bahwa:
+
+- **Hotel Kota memiliki jumlah pemesanan yang jauh lebih tinggi dibandingkan dengan Hotel Resor.**
+
+- **Hal ini menunjukkan preferensi pelanggan untuk menginap di hotel yang dekat dengan pusat aktivitas seperti perkantoran, tempat wisata perkotaan, atau lokasi strategis lainnya.**
+
+**2. Heatmap Korelasi Antar Fitur**
+
+Visualisasi heatmap digunakan untuk menunjukkan hubungan korelasi antar fitur dalam dataset. Beberapa poin penting dari analisis korelasi adalah:
+
+- **Lead Time memiliki korelasi positif dengan pembatalan (‘is_canceled’), yang berarti semakin lama waktu antara pemesanan dan kedatangan, semakin besar kemungkinan pemesanan akan dibatalkan.**
+
+- **Jumlah tamu dewasa (‘adults’) dan anak-anak (‘children’) menunjukkan korelasi yang signifikan terhadap jumlah total tamu, yang memberikan wawasan tentang komposisi tamu hotel.**
+
+**3. Tren Musiman dalam Pemesanan Hotel**
+
+Tren musiman divisualisasikan menggunakan grafik batang jumlah pemesanan per bulan. Hasilnya menunjukkan:
+
+- **Peningkatan jumlah pemesanan di bulan musim panas, khususnya pada bulan Juli dan Agustus.**
+
+- **Penurunan pemesanan di awal tahun, terutama pada bulan Januari dan Februari, yang menunjukkan pola musiman dalam industri perhotelan.**
+
+- **Pola ini dapat membantu hotel mempersiapkan strategi pemasaran berdasarkan musim, seperti diskon di bulan sepi atau promosi khusus musim liburan.**
+
+**Kesimpulan**
+
+Hasil visualisasi memberikan wawasan penting bagi manajemen hotel untuk meningkatkan kinerja mereka. Dengan memahami preferensi pelanggan, pola musiman, dan faktor yang memengaruhi pembatalan, hotel dapat:
+
+- **Menyesuaikan strategi harga berdasarkan musim.**
+
+- **Memfokuskan promosi pada jenis hotel tertentu.**
+
+- **Mengelola kebijakan pembatalan untuk mengurangi kerugian akibat pembatalan mendadak.**
+
+  
    
 
 
