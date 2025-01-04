@@ -398,7 +398,6 @@ Analisis ini memberikan manfaat bagi manajemen hotel dalam beberapa hal:
 
 Analisis ini bertujuan untuk memahami pola pemesanan hotel berdasarkan data yang tersedia. Dengan mengeksplorasi berbagai fitur seperti jenis hotel, waktu pemesanan, tingkat pembatalan, dan pola musiman, hasil ini memberikan wawasan yang dapat digunakan untuk meningkatkan strategi operasional dan pemasaran hotel. Pemahaman mendalam tentang data pemesanan dapat membantu hotel mengidentifikasi peluang untuk meningkatkan pendapatan dan mengoptimalkan pengalaman pelanggan.
 
-<details>
   
 **Visualisasi Utama**
 
@@ -431,8 +430,6 @@ Tren musiman divisualisasikan menggunakan grafik batang jumlah pemesanan per bul
 
   ![image](https://github.com/user-attachments/assets/a773ba42-6440-4b9a-a983-9b5dc5e206d1)
 
-
-</details>
 
 **Kesimpulan**
 
