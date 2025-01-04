@@ -113,9 +113,9 @@ data = pd.read_csv('/content/drive/MyDrive/ANALISIS BIG DATA/DATASET/hotels.csv'
 print(data.head())
 ```
 
-### Pembersihan Data
+#### Pembersihan Data
 
-#### Langkah 1 Pemeriksaan Nilai Hilang
+##### Langkah 1 Pemeriksaan Nilai Hilang
 
 ```
 # Periksa nilai yang hilang
@@ -125,7 +125,7 @@ print("\nNilai yang hilang di setiap kolom:\n", missing_values)
 data_cleaned = data.dropna()
 ```
 
-#### Langkah 2 Mengisi Nilai yang Hilang
+##### Langkah 2 Mengisi Nilai yang Hilang
 ```
 # Hapus kolom agent, company, dan country
 data = data.drop(columns=['agent', 'company'])
@@ -134,11 +134,11 @@ data['children'].fillna(data['children'].median(), inplace=True)
 # Mengisi nilai hilang pada kolom 'country' dengan mode
 data['country'].fillna(data['country'].mode()[0], inplace=True)
 ```
-#### Langkah 3 pemeriksaan dan menampilkan jumlah nilai yang hilang 
+##### Langkah 3 pemeriksaan dan menampilkan jumlah nilai yang hilang 
 ```
 print("Nilai yang hilang setelah pembersihan:\n", data.isnull().sum())
 ```
-#### Ringkasan Dataset Setelah Pembersihan
+##### Ringkasan Dataset Setelah Pembersihan
 
 **Sebelum Pembersihan:**
 
