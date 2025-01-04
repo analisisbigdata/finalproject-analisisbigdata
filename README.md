@@ -1,4 +1,4 @@
-# Hotel Bookings Data: Unveiling Consumer Trends and Patterns
+    # Hotel Bookings Data: Unveiling Consumer Trends and Patterns
 
 ![image](https://github.com/user-attachments/assets/e849cb15-9487-4143-b02d-68f6516b854a)
 
@@ -388,6 +388,7 @@ Tren musiman divisualisasikan menggunakan grafik batang jumlah pemesanan per bul
 - **Pola ini dapat membantu hotel mempersiapkan strategi pemasaran berdasarkan musim, seperti diskon di bulan sepi atau promosi khusus musim liburan.**
 
 </details>
+
 **Kesimpulan**
 
 Hasil visualisasi memberikan wawasan penting bagi manajemen hotel untuk meningkatkan kinerja mereka. Dengan memahami preferensi pelanggan, pola musiman, dan faktor yang memengaruhi pembatalan, hotel dapat:
