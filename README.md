@@ -399,6 +399,7 @@ Analisis ini memberikan manfaat bagi manajemen hotel dalam beberapa hal:
 Analisis ini bertujuan untuk memahami pola pemesanan hotel berdasarkan data yang tersedia. Dengan mengeksplorasi berbagai fitur seperti jenis hotel, waktu pemesanan, tingkat pembatalan, dan pola musiman, hasil ini memberikan wawasan yang dapat digunakan untuk meningkatkan strategi operasional dan pemasaran hotel. Pemahaman mendalam tentang data pemesanan dapat membantu hotel mengidentifikasi peluang untuk meningkatkan pendapatan dan mengoptimalkan pengalaman pelanggan.
 
 <details>
+  
 **Visualisasi Utama**
 
 **1. Grafik Distribusi Jenis Hotel Berdasarkan Pemesanan**
@@ -412,6 +413,9 @@ Grafik ini menunjukkan distribusi jumlah pemesanan berdasarkan jenis hotel (Hote
 **2. Heatmap Korelasi Antar Fitur**
 
 Visualisasi heatmap digunakan untuk menunjukkan hubungan korelasi antar fitur dalam dataset. Beberapa poin penting dari analisis korelasi adalah:
+
+
+![image](https://github.com/user-attachments/assets/51c76f78-8445-4576-a666-919dc191d592)
 
 - **Lead Time memiliki korelasi positif dengan pembatalan (‘is_canceled’), yang berarti semakin lama waktu antara pemesanan dan kedatangan, semakin besar kemungkinan pemesanan akan dibatalkan.**
 
@@ -449,7 +453,7 @@ Hasil visualisasi memberikan wawasan penting bagi manajemen hotel untuk meningka
 
 - [Liska Ayuningsih](https://github.com/LiskaAyuningsih) - 202110370311106
 - [Ida Masluha](https://github.com/Idamasluha) - 202110370311372
-- Dwi Rakhmawati - 202110370311087
+- [Dwi Rakhmawati](https://github.com/raya67-ti) - 202110370311087
 
 
 
