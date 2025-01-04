@@ -72,7 +72,15 @@ Cara Mengakses Data
 Gunakan perintah berikut untuk membaca dataset:
 
 # Membaca dataset langsung
-data=read_csv('path/to/hotels.csv')
+
+```python
+import pandas as pd
+
+# Membaca dataset dari file CSV
+data = pd.read_csv('/content/drive/MyDrive/ANALISIS BIG DATA/DATASET/hotels.csv')
+
+# Menampilkan beberapa baris pertama dari dataset
+print(data.head())
 
 Data Dictionary
 
