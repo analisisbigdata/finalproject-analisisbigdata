@@ -78,89 +78,24 @@ Data Dictionary
 
 Berikut adalah penjelasan variabel dalam dataset:
 
-Variabel
+# Data Description
 
-Tipe
+| **Variabel**                 | **Tipe**  | **Deskripsi**                                                                                                                                               |
+|------------------------------|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| hotel                        | character | Jenis hotel: H1 = Resort Hotel, H2 = City Hotel                                                                                                               |
+| is_canceled                  | double    | Status pembatalan: 1 jika dibatalkan, 0 jika tidak                                                                                                           |
+| lead_time                    | double    | Jumlah hari antara pemesanan dan tanggal kedatangan                                                                                                         |
+| arrival_date_year            | double    | Tahun kedatangan                                                                                                                                             |
+| arrival_date_month           | character | Bulan kedatangan                                                                                                                                             |
+| stays_in_weekend_nights      | double    | Jumlah malam akhir pekan yang dipesan atau ditempati                                                                                                       |
+| adults                       | double    | Jumlah orang dewasa                                                                                                                                          |
+| children                     | double    | Jumlah anak-anak                                                                                                                                             |
+| babies                       | double    | Jumlah bayi                                                                                                                                                 |
+| meal                         | character | Jenis paket makanan (SC, BB, HB, FB)                                                                                                                         |
+| country                      | character | Negara asal tamu dalam format ISO 3155–3:2013                                                                                                               |
+| market_segment               | character | Segmen pasar (TA = Travel Agents, TO = Tour Operators)                                                                                                      |
+| adr                          | double    | Rata-rata biaya harian per malam (Average Daily Rate)                                                                                                      |
 
-Deskripsi
-
-hotel
-
-character
-
-Jenis hotel: H1 = Resort Hotel, H2 = City Hotel
-
-is_canceled
-
-double
-
-Status pembatalan: 1 jika dibatalkan, 0 jika tidak
-
-lead_time
-
-double
-
-Jumlah hari antara pemesanan dan tanggal kedatangan
-
-arrival_date_year
-
-double
-
-Tahun kedatangan
-
-arrival_date_month
-
-character
-
-Bulan kedatangan
-
-stays_in_weekend_nights
-
-double
-
-Jumlah malam akhir pekan yang dipesan atau ditempati
-
-adults
-
-double
-
-Jumlah orang dewasa
-
-children
-
-double
-
-Jumlah anak-anak
-
-babies
-
-double
-
-Jumlah bayi
-
-meal
-
-character
-
-Jenis paket makanan (SC, BB, HB, FB)
-
-country
-
-character
-
-Negara asal tamu dalam format ISO 3155–3:2013
-
-market_segment
-
-character
-
-Segmen pasar (TA = Travel Agents, TO = Tour Operators)
-
-adr
-
-double
-
-Rata-rata biaya harian per malam (Average Daily Rate)
 
 Selengkapnya, data dictionary dapat dilihat di dokumentasi resmi dataset.
 
