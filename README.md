@@ -81,7 +81,7 @@ data = pd.read_csv('/content/drive/MyDrive/ANALISIS BIG DATA/DATASET/hotels.csv'
 
 # Menampilkan beberapa baris pertama dari dataset
 print(data.head())
-
+```
 Data Dictionary
 
 Berikut adalah penjelasan variabel dalam dataset:
