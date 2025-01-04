@@ -48,3 +48,123 @@ Proyek ini bertujuan untuk menganalisis data pemesanan hotel guna memahami berba
 
 </details>
 
+
+
+## Dataset
+
+Sumber Dataset
+
+Dataset ini berasal dari data permintaan pemesanan hotel yang dibuka oleh Antonio, Almeida, dan Nunes pada tahun 2019. Data ini mencakup informasi tentang pemesanan hotel baik untuk Resort Hotel maupun City Hotel, serta faktor-faktor yang memengaruhi keputusan pemesanan, pembatalan, dan durasi tinggal.
+
+Dataset ini juga mendukung eksplorasi menggunakan paket analisis data dan time-series seperti tidyverts, yang mencakup:
+
+tsibble: Struktur data untuk analisis time-series.
+
+feasts: Ekstraksi fitur dan statistik untuk data time-series.
+
+fable: Pemodelan prediktif untuk forecasting time-series.
+
+Dataset dapat diakses melalui file hotels.csv yang disertakan dalam repositori ini.
+
+
+Cara Mengakses Data
+
+Gunakan perintah berikut untuk membaca dataset:
+
+# Membaca dataset langsung
+data=read_csv('path/to/hotels.csv')
+
+Data Dictionary
+
+Berikut adalah penjelasan variabel dalam dataset:
+
+Variabel
+
+Tipe
+
+Deskripsi
+
+hotel
+
+character
+
+Jenis hotel: H1 = Resort Hotel, H2 = City Hotel
+
+is_canceled
+
+double
+
+Status pembatalan: 1 jika dibatalkan, 0 jika tidak
+
+lead_time
+
+double
+
+Jumlah hari antara pemesanan dan tanggal kedatangan
+
+arrival_date_year
+
+double
+
+Tahun kedatangan
+
+arrival_date_month
+
+character
+
+Bulan kedatangan
+
+stays_in_weekend_nights
+
+double
+
+Jumlah malam akhir pekan yang dipesan atau ditempati
+
+adults
+
+double
+
+Jumlah orang dewasa
+
+children
+
+double
+
+Jumlah anak-anak
+
+babies
+
+double
+
+Jumlah bayi
+
+meal
+
+character
+
+Jenis paket makanan (SC, BB, HB, FB)
+
+country
+
+character
+
+Negara asal tamu dalam format ISO 3155–3:2013
+
+market_segment
+
+character
+
+Segmen pasar (TA = Travel Agents, TO = Tour Operators)
+
+adr
+
+double
+
+Rata-rata biaya harian per malam (Average Daily Rate)
+
+Selengkapnya, data dictionary dapat dilihat di dokumentasi resmi dataset.
+
+Pembersihan Data
+
+Langkah-langkah pembersihan data dilakukan dalam file notebook BOOKING HOTEL.ipynb yang terdapat dalam repositori ini.
+
