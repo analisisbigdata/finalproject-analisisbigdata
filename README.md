@@ -67,11 +67,9 @@ fable: Pemodelan prediktif untuk forecasting time-series.
 Dataset dapat diakses melalui file hotels.csv yang disertakan dalam repositori ini.
 
 
-Cara Mengakses Data
+### Cara Mengakses Data
 
 Gunakan perintah berikut untuk membaca dataset:
-
-# Membaca dataset langsung
 
 ```python
 import pandas as pd
@@ -82,7 +80,8 @@ data = pd.read_csv('/content/drive/MyDrive/ANALISIS BIG DATA/DATASET/hotels.csv'
 # Menampilkan beberapa baris pertama dari dataset
 print(data.head())
 ```
-Data Dictionary
+
+### Data Dictionary
 
 Berikut adalah penjelasan variabel dalam dataset:
 
@@ -107,7 +106,121 @@ Berikut adalah penjelasan variabel dalam dataset:
 
 Selengkapnya, data dictionary dapat dilihat di dokumentasi resmi dataset.
 
-Pembersihan Data
+### Pembersihan Data
 
-Langkah-langkah pembersihan data dilakukan dalam file notebook BOOKING HOTEL.ipynb yang terdapat dalam repositori ini.
+#### Langkah 1 Pemeriksaan Nilai Hilang
+
+```
+# Periksa nilai yang hilang
+missing_values = data.isnull().sum()
+print("\nNilai yang hilang di setiap kolom:\n", missing_values)
+
+data_cleaned = data.dropna()
+```
+
+#### Langkah 2 Mengisi Nilai yang Hilang
+```
+# Hapus kolom agent, company, dan country
+data = data.drop(columns=['agent', 'company'])
+# Mengisi nilai hilang pada kolom 'children' dengan median
+data['children'].fillna(data['children'].median(), inplace=True)
+# Mengisi nilai hilang pada kolom 'country' dengan mode
+data['country'].fillna(data['country'].mode()[0], inplace=True)
+```
+#### Langkah 3 pemeriksaan dan menampilkan jumlah nilai yang hilang 
+```
+print("Nilai yang hilang setelah pembersihan:\n", data.isnull().sum())
+```
+#### Ringkasan Dataset Setelah Pembersihan
+
+Sebelum Pembersihan:
+
+| **Variabel**                    | **Nilai yang Hilang** |
+|----------------------------------|-----------------------|
+| hotel                            | 0                     |
+| is_canceled                      | 0                     |
+| lead_time                        | 0                     |
+| arrival_date_year                | 0                     |
+| arrival_date_month               | 0                     |
+| arrival_date_week_number         | 0                     |
+| arrival_date_day_of_month        | 0                     |
+| stays_in_weekend_nights          | 0                     |
+| stays_in_week_nights             | 0                     |
+| adults                           | 0                     |
+| children                         | 4                     |
+| babies                           | 0                     |
+| meal                             | 0                     |
+| country                          | 488                   |
+| market_segment                   | 0                     |
+| distribution_channel             | 0                     |
+| is_repeated_guest                | 0                     |
+| previous_cancellations           | 0                     |
+| previous_bookings_not_canceled   | 0                     |
+| reserved_room_type               | 0                     |
+| assigned_room_type               | 0                     |
+| booking_changes                  | 0                     |
+| deposit_type                     | 0                     |
+| agent                            | 16340                 |
+| company                          | 112593                |
+| days_in_waiting_list             | 0                     |
+| customer_type                    | 0                     |
+| adr                              | 0                     |
+| required_car_parking_spaces      | 0                     |
+| total_of_special_requests        | 0                     |
+| reservation_status               | 0                     |
+| reservation_status_date          | 0                     |
+
+
+Setelah Pembersihan:
+
+| **Variabel**                    | **Nilai yang Hilang** |
+|----------------------------------|-----------------------|
+| hotel                            | 0                     |
+| is_canceled                      | 0                     |
+| lead_time                        | 0                     |
+| arrival_date_year                | 0                     |
+| arrival_date_month               | 0                     |
+| arrival_date_week_number         | 0                     |
+| arrival_date_day_of_month        | 0                     |
+| stays_in_weekend_nights          | 0                     |
+| stays_in_week_nights             | 0                     |
+| adults                           | 0                     |
+| children                         | 0                     |
+| babies                           | 0                     |
+| meal                             | 0                     |
+| country                          | 0                     |
+| market_segment                   | 0                     |
+| distribution_channel             | 0                     |
+| is_repeated_guest                | 0                     |
+| previous_cancellations           | 0                     |
+| previous_bookings_not_canceled   | 0                     |
+| reserved_room_type               | 0                     |
+| assigned_room_type               | 0                     |
+| booking_changes                  | 0                     |
+| deposit_type                     | 0                     |
+| days_in_waiting_list             | 0                     |
+| customer_type                    | 0                     |
+| adr                              | 0                     |
+| required_car_parking_spaces      | 0                     |
+| total_of_special_requests        | 0                     |
+| reservation_status               | 0                     |
+| reservation_status_date          | 0                     |
+
+
+Langkah-langkah pembersihan data selengkapnya dilakukan dalam file notebook [BOOKING HOTEL.ipynb](BOOKING%20HOTEL.ipynb) yang terdapat dalam repositori ini.
+
+
+# Analisis dan Code
+
+Analisis data mencakup:
+
+1. Pembersihan data
+
+2. Eksplorasi dan visualisasi data
+
+3. Pemodelan untuk mengidentifikasi tren utama
+
+Kode tersedia di file BOOKING HOTEL.ipynb. Notebook ini mencakup semua langkah yang dilakukan untuk analisis dataset ini.
+
+
 
