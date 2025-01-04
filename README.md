@@ -15,6 +15,7 @@
 - [Anggota Kelompok](#anggota-kelompok)
 
 
+
 ## About
 
 Proyek ini bertujuan untuk menganalisis data pemesanan hotel guna memahami berbagai pola dan faktor yang memengaruhi keputusan pelanggan. Data yang digunakan mencakup informasi dari dua jenis hotel, yaitu Resort Hotel dan City Hotel. Analisis ini bertujuan untuk memberikan wawasan kepada manajemen hotel dalam meningkatkan pengalaman pelanggan, mengoptimalkan tingkat hunian, dan memaksimalkan pendapatan.
@@ -50,6 +51,7 @@ Proyek ini bertujuan untuk menganalisis data pemesanan hotel guna memahami berba
 
 
 
+
 ## Dataset
 
 Sumber Dataset
@@ -58,34 +60,18 @@ Dataset ini berasal dari data permintaan pemesanan hotel yang dibuka oleh Antoni
 
 Dataset ini juga mendukung eksplorasi menggunakan paket analisis data dan time-series seperti tidyverts, yang mencakup:
 
-tsibble: Struktur data untuk analisis time-series.
+- **tsibble: Struktur data untuk analisis time-series.**
 
-feasts: Ekstraksi fitur dan statistik untuk data time-series.
+- **feasts: Ekstraksi fitur dan statistik untuk data time-series.**
 
-fable: Pemodelan prediktif untuk forecasting time-series.
+- **fable: Pemodelan prediktif untuk forecasting time-series.**
 
-Dataset dapat diakses melalui file hotels.csv yang disertakan dalam repositori ini.
+Dataset dapat diakses melalui file [hotels.csv](Dataset/hotels.csv) yang disertakan dalam repositori ini.
 
-
-### Cara Mengakses Data
-
-Gunakan perintah berikut untuk membaca dataset:
-
-```python
-import pandas as pd
-
-# Membaca dataset dari file CSV
-data = pd.read_csv('/content/drive/MyDrive/ANALISIS BIG DATA/DATASET/hotels.csv')
-
-# Menampilkan beberapa baris pertama dari dataset
-print(data.head())
-```
 
 ### Data Dictionary
 
 Berikut adalah penjelasan variabel dalam dataset:
-
-# Data Description
 
 | **Variabel**                 | **Tipe**  | **Deskripsi**                                                                                                                                               |
 |------------------------------|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -103,8 +89,22 @@ Berikut adalah penjelasan variabel dalam dataset:
 | market_segment               | character | Segmen pasar (TA = Travel Agents, TO = Tour Operators)                                                                                                      |
 | adr                          | double    | Rata-rata biaya harian per malam (Average Daily Rate)                                                                                                      |
 
+Selengkapnya, data dictionary dapat dilihat di dokumentasi resmi datasetnya.
 
-Selengkapnya, data dictionary dapat dilihat di dokumentasi resmi dataset.
+
+### Cara Mengakses Data
+
+Gunakan perintah berikut untuk membaca dataset:
+
+```python
+import pandas as pd
+
+# Membaca dataset dari file CSV
+data = pd.read_csv('/content/drive/MyDrive/ANALISIS BIG DATA/DATASET/hotels.csv')
+
+# Menampilkan beberapa baris pertama dari dataset
+print(data.head())
+```
 
 ### Pembersihan Data
 
@@ -356,6 +356,9 @@ Analisis ini memberikan manfaat bagi manajemen hotel dalam beberapa hal:
 
 ## Hasil
 
+Analisis ini bertujuan untuk memahami pola pemesanan hotel berdasarkan data yang tersedia. Dengan mengeksplorasi berbagai fitur seperti jenis hotel, waktu pemesanan, tingkat pembatalan, dan pola musiman, hasil ini memberikan wawasan yang dapat digunakan untuk meningkatkan strategi operasional dan pemasaran hotel. Pemahaman mendalam tentang data pemesanan dapat membantu hotel mengidentifikasi peluang untuk meningkatkan pendapatan dan mengoptimalkan pengalaman pelanggan.
+
+<details>
 **Visualisasi Utama**
 
 **1. Grafik Distribusi Jenis Hotel Berdasarkan Pemesanan**
@@ -384,6 +387,7 @@ Tren musiman divisualisasikan menggunakan grafik batang jumlah pemesanan per bul
 
 - **Pola ini dapat membantu hotel mempersiapkan strategi pemasaran berdasarkan musim, seperti diskon di bulan sepi atau promosi khusus musim liburan.**
 
+</details>
 **Kesimpulan**
 
 Hasil visualisasi memberikan wawasan penting bagi manajemen hotel untuk meningkatkan kinerja mereka. Dengan memahami preferensi pelanggan, pola musiman, dan faktor yang memengaruhi pembatalan, hotel dapat:
@@ -396,6 +400,12 @@ Hasil visualisasi memberikan wawasan penting bagi manajemen hotel untuk meningka
 
   
    
+## Anggota Kelompok 
+
+- [GitHub - Liska Ayuningsih](https://github.com/LiskaAyuningsih)
+ - 202110370311106
+- Ida Masluha (202110370311372)
+- Dwi Rakhmawati - 202110370311087
 
 
 
