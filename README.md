@@ -312,7 +312,7 @@ Pastikan Python 3.9+ sudah terinstal di sistem.
 5. Lihat Dokumentasi Lengkap
 Untuk informasi lebih lanjut mengenai proyek ini, dapat dilihat dokumentasi lengkapnya melalui tautan berikut:
 
-README di GitHub
+[README di GitHub](READMI di GitHub)
 
 Dengan mengikuti langkah-langkah di atas, proyek analisis data ini dapat dijalankan dengan mudah di sistem lokal.
    
