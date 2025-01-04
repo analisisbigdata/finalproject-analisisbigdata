@@ -415,8 +415,6 @@ Grafik ini menunjukkan distribusi jumlah pemesanan berdasarkan jenis hotel (Hote
 Visualisasi heatmap digunakan untuk menunjukkan hubungan korelasi antar fitur dalam dataset. Beberapa poin penting dari analisis korelasi adalah:
 
 
-![image](https://github.com/user-attachments/assets/51c76f78-8445-4576-a666-919dc191d592)
-
 - **Lead Time memiliki korelasi positif dengan pembatalan (‘is_canceled’), yang berarti semakin lama waktu antara pemesanan dan kedatangan, semakin besar kemungkinan pemesanan akan dibatalkan.**
 
 - **Jumlah tamu dewasa (‘adults’) dan anak-anak (‘children’) menunjukkan korelasi yang signifikan terhadap jumlah total tamu, yang memberikan wawasan tentang komposisi tamu hotel.**
@@ -430,6 +428,15 @@ Tren musiman divisualisasikan menggunakan grafik batang jumlah pemesanan per bul
 - **Penurunan pemesanan di awal tahun, terutama pada bulan Januari dan Februari, yang menunjukkan pola musiman dalam industri perhotelan.**
 
 - **Pola ini dapat membantu hotel mempersiapkan strategi pemasaran berdasarkan musim, seperti diskon di bulan sepi atau promosi khusus musim liburan.**
+
+
+  ![image](https://github.com/user-attachments/assets/a773ba42-6440-4b9a-a983-9b5dc5e206d1)
+
+  ![image](https://github.com/user-attachments/assets/51c76f78-8445-4576-a666-919dc191d592)
+
+  ![image](https://github.com/user-attachments/assets/8efee9ec-4409-423b-be85-72d6a321586b)
+
+
 
 </details>
 
