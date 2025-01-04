@@ -210,7 +210,7 @@ Setelah Pembersihan:
 Langkah-langkah pembersihan data selengkapnya dilakukan dalam file notebook [BOOKING HOTEL.ipynb](BOOKING%20HOTEL.ipynb) yang terdapat dalam repositori ini.
 
 
-# Analisis dan Code
+## Analisis dan Code
 
 Analisis data mencakup:
 
@@ -223,10 +223,9 @@ Analisis data mencakup:
 Kode tersedia di file [BOOKING HOTEL.ipynb](BOOKING%20HOTEL.ipynb). Notebook ini mencakup semua langkah yang dilakukan untuk analisis dataset ini.
 
 
-# Storyboard
+## Storyboard
 
-[Storyboard.pdf](Storyboard/Storyboard.pdf)
-Storyboard proyek ini tersedia dalam file [Storyboard (PDF)](https://github.com/analisisbigdata/finalproject-analisisbigdata/raw/main/Storyboard/Storyboard.pdf) yang mencakup:
+Storyboard proyek ini tersedia dalam file [Storyboard.pdf](Storyboard/Storyboard.pdf) yang mencakup:
 
 Evolusi industri perhotelan
 
@@ -245,6 +244,79 @@ Strategi retensi untuk City Hotel
 Kesimpulan dan rencana aksi
 
 File storyboard memberikan visualisasi dan alur cerita dari analisis yang dilakukan, serta rekomendasi untuk implementasi bisnis.
+
+
+## Dependencies
+
+Berikut adalah pustaka dan perangkat lunak yang diperlukan:
+
+- **windows 10**
+- **Python 3.9+**
+- **Pandas**
+- **NumPy**
+- **Matplotlib**
+- **Seaborn**
+- **Scikit-learn**
+- **Jupyter Notebook** (opsional untuk menjalankan kode)
+
+
+  ## Tutorial
+
+  Langkah- langkah untuk menjalankan proyek ini:
+
+1. Clone repository
+
+   ```
+   git clone https://github.com/analisisbigdata/finalproject-analisisbigdata.git
+   ```
+   Perintah ini akan mendownload seluruh repositori ke direktori lokal.
+
+2. Install Dependencies
+
+   Setelah repositori berhasil dikloning, langkah berikutnya adalah menginstal dependensi yang diperlukan untuk menjalankan proyek ini. Proyek ini membutuhkan beberapa pustaka Python yang terdaftar dalam file requirements.txt.
+
+Untuk menginstal dependensi, jalankan perintah berikut di terminal atau command prompt setelah memasuki folder repositori yang telah dikloning:
+
+```
+pip install -r requirements.txt
+```
+Perintah ini akan menginstal semua pustaka yang diperlukan, seperti:
+
+- **Pandas**
+- **NumPy**
+- **Matplotlib**
+- **Seaborn**
+- **Scikit-learn**
+- **Jupyter Notebook** (opsional, jika ingin menjalankan kode dalam notebook)
+Pastikan Python 3.9+ sudah terinstal di sistem.
+
+3. Jalankan Jupyter Notebook
+
+   Untuk menjalankan analisis data, buka Jupyter Notebook. Jika Jupyter belum terinstal, gunakan perintah berikut untuk menginstalnya:
+
+   ```
+   pip install jupyter
+   ```
+   Perintah ini akan membuka Jupyter Notebook di browser. Kemudian, buka file BOOKING HOTEL.ipynb untuk memulai analisis data.
+
+4. Menjalankan Analisis Data
+
+   Di dalam Jupyter Notebook, terdapat berbagai langkah analisis data, termasuk:
+
+- **Pembersihan data untuk mempersiapkan dataset**
+- **Eksplorasi data untuk mencari pola dan wawasan**
+- **Pemodelan data untuk mengidentifikasi tren utama**
+
+  Jalankan setiap sel di dalam notebook untuk mengikuti proses analisis.
+
+5. Lihat Dokumentasi Lengkap
+Untuk informasi lebih lanjut mengenai proyek ini, dapat dilihat dokumentasi lengkapnya melalui tautan berikut:
+
+README di GitHub
+
+Dengan mengikuti langkah-langkah di atas, proyek analisis data ini dapat dijalankan dengan mudah di sistem lokal.
+   
+
 
 
 
