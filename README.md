@@ -225,7 +225,9 @@ Kode tersedia di file [BOOKING HOTEL.ipynb](BOOKING%20HOTEL.ipynb). Notebook ini
 
 # Storyboard
 
-Storyboard proyek ini tersedia dalam file [Download Storyboard (PDF)](https://github.com/analisisbigdata/finalproject-analisisbigdata/blob/main/Storyboard/Storyboard.pdf) yang mencakup:
+Storyboard proyek ini tersedia dalam file ![Storyboard](https://github.com/analisisbigdata/finalproject-analisisbigdata/raw/main/images/storyboard_image.png)
+
+- **Storyboard (PDF)**: [Download Storyboard (PDF)](https://github.com/analisisbigdata/finalproject-analisisbigdata/raw/main/Storyboard/Storyboard.pdf) yang mencakup:
 
 Evolusi industri perhotelan
 
