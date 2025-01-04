@@ -220,7 +220,30 @@ Analisis data mencakup:
 
 3. Pemodelan untuk mengidentifikasi tren utama
 
-Kode tersedia di file BOOKING HOTEL.ipynb. Notebook ini mencakup semua langkah yang dilakukan untuk analisis dataset ini.
+Kode tersedia di file [BOOKING HOTEL.ipynb](BOOKING%20HOTEL.ipynb). Notebook ini mencakup semua langkah yang dilakukan untuk analisis dataset ini.
+
+
+# Storyboard
+
+Storyboard proyek ini tersedia dalam file Storyboard.pdf yang mencakup:
+
+Evolusi industri perhotelan
+
+Perilaku pemesanan pelanggan
+
+Pola pemesanan dan pembatalan
+
+Strategi harga berdasarkan paket
+
+Pola Average Daily Rate (ADR) dan durasi menginap
+
+Optimalisasi musiman
+
+Strategi retensi untuk City Hotel
+
+Kesimpulan dan rencana aksi
+
+File storyboard memberikan visualisasi dan alur cerita dari analisis yang dilakukan, serta rekomendasi untuk implementasi bisnis.
 
 
 
